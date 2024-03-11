@@ -1,0 +1,83 @@
+/* User Card CSS Here */
+
+.main-container{
+    margin: 20px 0px;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.user-data{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.user-img-container{
+    width: 8%;
+}
+
+.user-img{
+    border-radius: 50%;
+    width: 100%;
+}
+
+.user-name, .user-num, .user-email{
+    width: 16%;
+    font-size:large;
+}
+
+.button-container{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.send-mail-button, .make-call-button{
+    font-size:large;
+    border: solid 2px;
+    font-weight: 500;
+    width: 40%;
+}
+
+.send-mail-button{
+    
+}
+
+.make-call-button{
+    background-color: #19417C;
+    color: white;
+}
+
+/* Enquiry Page CSS Here */
+
+.EnquiryPage{
+    background-color: gainsboro;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: x-large;
+    margin-top: 120px
+}
+
+.CardTop{
+    display: flex;
+    justify-content: space-between;
+}
+
+.CardTop-Left, .CardTop-Right{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    align-items: center;
+}
+

@@ -12,6 +12,8 @@ import Dashboard from "./Component/pages/Dashabord/Dashboard";
 import HorizontalNonLinearStepper from "./Component/PostProperty/PreviewData";
 import PostMain from "./Component/PostProperty/PostMain";
 import StepContext from "./Component/PostProperty/StepContext";
+import Enquiries from "./Component/super_admin/enquiries"
+
 function App() {
   return (
     <BrowserRouter>
@@ -25,6 +27,7 @@ function App() {
         <Route path="/basicTabs" element={<Dashboard />} />
         <Route path="/register*" element={<Register />} />
         <Route path="/login*" element={<Login />} />
+        <Route path="/enquiries" element={<Enquiries />} />
         <Route   path="/postMian"  element={        <StepContext>
               {" "}
               <PostMain />
